@@ -1,0 +1,121 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: black;
+  border-bottom: 1px solid transparent
+}
+main {
+  background-color: white;
+}
+
+.header__nav {
+  max-width: 1032px;
+  width: 100%;
+  height: 40px;
+  padding: 0 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.header__mode h4 {
+  padding-right: 0px;
+}
+
+.header__search {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 5px;
+  width: 400px;
+  height: 20px;
+}
+
+.header__search span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  border: 0.5px solid gray;
+  border-radius: 3px;
+  background-color: white;
+  color: grey;
+}
+
+.header__search .search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 5px;
+  border: 0.5px solid gray;
+  border-radius: 3px;
+  background-color: white;
+  color: grey;
+}
+
+.conteiner_wrpper {
+  max-width: 1032px;
+  width: 100%;
+  padding: 20px 16px;
+  margin: 0 auto;
+}
+
+.main_header {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(161, 161, 161, 0.507);
+    color: rgb(51, 51, 51);
+  padding: 60px;
+  width: calc(100% - 40px);
+  border-radius: 6px;
+}
+
+.main_header h1 {
+    font-size: 60px; 
+    color: rgb(51, 51, 51);
+    margin-bottom: 20px;
+}
+
+.main_header span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgba(52, 52, 252, 0.89);
+    color: white;
+    width: 115px;
+    height: 30px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    border-bottom: 0.5px solid gray;
+}
+
+.content span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: gray;
+    width: 100px;
+    height: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
